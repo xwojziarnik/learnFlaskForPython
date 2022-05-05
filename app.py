@@ -50,5 +50,21 @@ def delete(id):
         return 'There was a problem deleting that task.'
 
 
+@app.route('/update/<int:id>', methods=['GET', 'POST'])
+def update(id):
+    task = Todo.query.get_or_404(id)
+
+    if flask.request.method == 'POST':
+        task.content = flask.request.form['content']
+
+        try:
+            db.session.commit()
+            return flask.redirect('/')
+        except:
+            return 'There was an issue updating your task.'
+    else:
+        return flask.render_template('update.html', task=task)
+
+
 if __name__ == '__main__':
     app.run(debug=True)
