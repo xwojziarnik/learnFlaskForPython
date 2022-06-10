@@ -1,7 +1,3 @@
-Hello! Today I'm doing the freeCodeCamp tutorial about Flask app.
-Link below:
-https://www.youtube.com/watch?v=F2DBSH2VoHQ
-
 🇬🇧
 
 # learnFlaskForPython
@@ -17,43 +13,26 @@ https://www.youtube.com/watch?v=F2DBSH2VoHQ
 
 ## The aim of the project
 
-Flask Task application using <details><summary><b>freeCodeCamp</b></summary>https://www.youtube.com/watch?v=Z1RJmh_OqeA</details> tutorial
+Flask Task application using <details><summary><b>freeCodeCamp</b></summary>https://www.youtube.com/watch?v=Z1RJmh_OqeA</details> tutorial.
 
-## What is our motivation?
+## What is my motivation?
 
-We want to:
+I want to:
 
-- Get to know Django framework better,
-- Try to work in a team as a developers,
-- Write an app using public API,
-- Consolidate things we have learned at course
-
-Also this is our project for graduate [Python od podstaw](https://sdacademy.pl/kursy/python/) course organized by [Software Development Academy](https://sdacademy.pl/).
+- Get to know Flask framework better,
+- Write task manager application,
+- Try to write some css files
 
 ## Features
 
-- [x] Listing interesting facts on home page,
-- [x] CRUD on vehicles registered in Poland,
-- [x] CRUD on driving licences registered in Poland,
+- [x] CRUD on tasks,
+- [ ] Host app on Heroku (got errors because of SQLite db - SQLite is not supported by Heroku)
 
 ## Technologies & Documentation
 
 - [Python 3](https://docs.python.org/3/)
-- [Django](https://docs.djangoproject.com/en/4.0/)
+- [Flask](https://flask.palletsprojects.com/en/2.1.x/)
 - [SQLite 3](https://www.sqlite.org/docs.html)
-- [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
-
-## Team
-
-<details>
-<summary>Click to get links and say hi on LinkedIn!</summary>
-
-- [Dawid Gapiński](https://www.linkedin.com/in/dgapinski)
-- [Łukasz Kacik](https://www.linkedin.com/in/%C5%82ukasz-kacik-093691224/)
-- [Patryk Skonieczny](https://www.linkedin.com/in/pskonieczny33/)
-- [Wojciech Ziarnik](https://www.linkedin.com/in/wojciech-ziarnik-23ba971a1)
-
-</details>
 
 ## Installation
 
@@ -102,7 +81,7 @@ source <virtualenv_name>/bin/activate                # to activate virtualenv on
 </details>
 
 <details>
-<summary>Django:</summary>
+<summary>Flask:</summary>
 
 If you did above tutorials, now you should have scheme of your files like:
 
@@ -112,21 +91,14 @@ Desktop/
         <virtualenv_name>
 ```
 
-Now we can install Django framework. Simply type in your terminal/command prompt:
+Now we can install Flask framework. Simply type in your terminal/command prompt:
 
 ```
-pip3 install django     # on MacOS
-pip install django      # on Windows
+pip3 install Flask     # on MacOS
+pip install Flask      # on Windows
 ```
 
-To check if it's installed correctly, type:
-
-```
-python3 -m django --version     # on MacOS
-python -m django --version      # on Windows
-```
-
-If Django is installed, you should see the version of your installation. If it isn’t, you’ll get an error telling “No module named django”.
+And that's it! Simply - right?
 
 </details>
 
