@@ -141,23 +141,11 @@ We've seen how to run venv. Keep that running!
 <summary>Now we can simply clone this repo, and see if it's working on our machine (in case we did everything above count creating virtualenv):</summary>
 
 ```
-git init                                                # to initialize repository
-git clone https://github.com/xwojziarnik/cepik_app      # to clone this repository into your local machine
+git init                                                          # to initialize repository
+git clone https://github.com/xwojziarnik/learnFlaskForPython      # to clone this repository into your local machine
 
-python3 manage.py runserver     # using MacOS
-python manage.py runserver      # using Windows
-```
-
-</details>
-
-<details>
-<summary>Get API from CEPiK into database</summary>
-
-- Run your terminal and type:
-
-```
-exec(open('viewer/utils.py').read())        # run utils.py file
-download_data()                             # run func
+python3 app.py     # using MacOS
+python app.py      # using Windows
 ```
 
 </details>
